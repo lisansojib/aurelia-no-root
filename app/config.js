@@ -2,9 +2,9 @@ System.config({
   defaultJSExtensions: true,
   transpiler: false,
   paths: {
-    "*": "dist/*",
-    "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
+    "*": "app/dist/*",
+    "github:*": "app/jspm_packages/github/*",
+    "npm:*": "app/jspm_packages/npm/*"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.1",
