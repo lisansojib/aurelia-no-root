@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Aurelia</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!--The FontAwesome version is locked at 4.6.3 in the package.json file to keep this from breaking.-->
+    <link rel="stylesheet" href="app/jspm_packages/github/twbs/bootstrap@3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/jspm_packages/npm/font-awesome@4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="app/styles/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/src//template/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="app/src/template/css/skins/skin-blue.min.css">
   </head>
 
   <body aurelia-app="main">
@@ -24,6 +26,9 @@
     <script src="app/jspm_packages/system.js"></script>
     <script src="app/config.js"></script>
     <script src="app/jspm_packages/npm/bluebird@3.4.1/js/browser/bluebird.min.js"></script>
+    <script src="app/jspm_packages/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+    <script src="app/jspm_packages/github/twbs/bootstrap@3.3.7/js/bootstrap.min.js"></script>
+    <script src="app/src//template/js/adminlte.min.js"></script>
     <script>
       System.import('aurelia-bootstrapper');
     </script>
