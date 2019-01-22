@@ -6,7 +6,6 @@ System.config({
     "github:*": "app/jspm_packages/github/*",
     "npm:*": "app/jspm_packages/npm/*"
   },
-
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.1",
     "aurelia-api": "npm:aurelia-api@3.2.1",
@@ -25,6 +24,7 @@ System.config({
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.0",
     "bluebird": "npm:bluebird@3.4.1",
     "bootstrap": "github:twbs/bootstrap@3.3.7",
+    "css": "github:systemjs/plugin-css@0.1.31",
     "fastclick": "npm:fastclick@1.0.6",
     "fetch": "github:github/fetch@1.0.0",
     "font-awesome": "npm:font-awesome@4.6.3",
