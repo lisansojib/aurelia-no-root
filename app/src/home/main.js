@@ -1,4 +1,3 @@
-import 'bootstrap'
 import 'icheck';
 import 'fetch';
 
