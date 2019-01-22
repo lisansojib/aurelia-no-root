@@ -8,9 +8,18 @@ export class Login {
 	isRemembered;
 
 	constructor(authService) {
+		debugger;
 		this.authService = authService;
 		this.providers = [];
 	};
+
+	attached() {
+		$('input').iCheck({
+			checkboxClass: 'icheckbox_square-blue',
+			radioClass: 'iradio_square-blue',
+			increaseArea: '20%' /* optional */
+		});
+	}
 
 	// make a getter to get the authentication status.
 	// use computedFrom to avoid dirty checking
@@ -21,18 +30,7 @@ export class Login {
 
 	// use authService.login(credentialsObject) to login to your auth server
 	submit() {
-		var postData = "grant_type=password&username=" + this.username + "&password=" + this.password;
-		debugger;
-		// this.authService
-		// 	.login(postData, { mode: 'cors' })
-		// 	.then(response => {
-		// 		debugger;
-		// 		console.log(response);
-		// 	})
-		// 	.catch(err => {
-		// 		debugger;
-		// 		console.log(err);
-		// 	});
+		alert('Submitted');
 
 		this.authService.login({
 			username: this.username,
