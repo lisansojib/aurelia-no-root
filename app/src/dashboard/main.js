@@ -2,7 +2,7 @@ import 'fastclick';
 import 'jquery-slimscroll';
 import 'fetch';
 
-import authConfig from './auth/authConfig';
+import authConfig from '../auth/authConfig';
 
 export function configure(aurelia) {
   aurelia.use
